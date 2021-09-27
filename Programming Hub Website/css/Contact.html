@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact.css">
+    <title>Contact Us</title>
+</head>
+<style>
+  body{
+     
+      background-size: cover;
+      background-attachment: fixed;
+      animation: image 3s infinite alternate;
+  }
+  @keyframes image{
+      0%{
+          background-image:url('/img/back.jpg');
+      }
+      100%{
+          background-image:url('/img/A13.jpg');
+      }
+  }
+</style>
+<body>
+    <div class="container">
+        <form action="contact.php" method="POST" name="form" class="form-box">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="Email">Email</label>
+          <input type="text" id="Email" name="Email" placeholder="Your Email..">
+      
+          <label for="country">Country</label>
+          
+            <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="China">China</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Angola">Angola</option>
+            <option value="Croatia">Croatia</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea  class="sub-box" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" name="submit" value="Submit">
+      
+        </form>
+      </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77811L4Ztiqrq080Kn4Z8NTSRYMA2Fd33n5d081UE00s/"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="machine.css">
+    <link rel="stylesheet" href="index.html">
+    
+    
+    
+    <title>Machine Learning Tutorials</title>
+</head>
+    <style>
+        body{
+       
+            background-size: cover;
+            background-attachment: fixed;
+            animation: image 3s infinite alternate;
+        }
+        @keyframes image{
+            0%{
+                background-image:url('/img/back.jpg');
+            }
+            100%{
+                background-image:url('/img/A13.jpg');
+            }
+        }
+    </style>
+<body>
+
+   
+    
+    <nav class="navbar background">
+         <ul class="nav-list">
+            
+                 
+        
+                 <a href="index.html"><button class="btn"><i class="fa fa-bars"></i>Home</button></a>
+                 <a href="login.html"><button class="btn"><i class="fa fa-user"></i> login</button></a>
+                  
+                
+                                                               
+    <br>
+    <br>
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag"><h1>Machine Learning?</h1></p>
+        <p class="sectionsubTag " >Machine Learning is the field of study that gives computers the capability to learn without being explicitly programmed. ML is one of the most exciting technologies that one would have ever come across.<br> As it is evident from the name, it gives the computer that makes it more similar to humans: The ability to learn. Machine learning is actively being used today, perhaps in many more places than one would expect.
+            </p>
+                    
+                    
+        </div>
+           <div class="thumbnail">
+               <img src="https://source.unsplash.com/500x500/?coding,laptop
+               " alt="laptop image" class="imgfluid">
+           </div>
+           <section class="sectionLeft">
+            <div class="paras">
+            <p class="sectionTag"><h2>What is machine learning?</h2></p>
+            <p class="sectionsubTag ">
+                Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.
+
+IBM has a rich history with machine learning. One of its own, Arthur Samuel, is credited for coining the term, “machine learning” with his research (PDF, 481 KB) (link resides outside IBM) around the game of checkers. Robert Nealey, the self-proclaimed checkers master, played the game on an IBM 7094 computer in 1962, and he lost to the computer. Compared to what can be done today, this feat almost seems trivial, but it’s considered a major milestone within the field of artificial intelligence. Over the next couple of decades, the technological developments around storage and processing power will enable some innovative products that we know and love today, such as Netflix’s recommendation engine or self-driving cars.
+
+Machine learning is an important component of the growing field of data science. Through the use of statistical methods, algorithms are trained to make classifications or predictions, uncovering key insights within data mining projects. These insights subsequently drive decision making within applications and businesses, ideally impacting key growth metrics. As big data continues to expand and grow, the market demand for data scientists will increase, requiring them to assist in the identification of the most relevant business questions and subsequently the data to answer them.
+            </div>
+               <div class="thumbnail">
+                   <img src="https://source.unsplash.com/500x500/?coding,screen
+                   "  alt="laptop image" class="imgfluid">
+               </div>
+               <section class="section">
+                <div class="paras">
+                <p class="sectionTag"><h2>Machine Learning vs. Deep Learning vs. Neural Networks</h2></p>
+                <p class="sectionsubTag ">Since deep learning and machine learning tend to be used interchangeably, it’s worth noting the nuances between the two. Machine learning, deep learning, and neural networks are all sub-fields of artificial intelligence. However, deep learning is actually a sub-field of machine learning, and neural networks is a sub-field of deep learning.
+
+                    The way in which deep learning and machine learning differ is in how each algorithm learns. Deep learning automates much of the feature extraction piece of the process, eliminating some of the manual human intervention required and enabling the use of larger data sets. You can think of deep learning as "scalable machine learning" as Lex Fridman notes in this MIT lecture (00:30) (link resides outside IBM). Classical, or "non-deep", machine learning is more dependent on human intervention to learn. Human experts determine the set of features to understand the differences between data inputs, usually requiring more structured data to learn.
+                    
+                    "Deep" machine learning can leverage labeled datasets, also known as supervised learning, to inform its algorithm, but it doesn’t necessarily require a labeled dataset. It can ingest unstructured data in its raw form (e.g. text, images), and it can automatically determine the set of features which distinguish different categories of data from one another. Unlike machine learning, it doesn't require human intervention to process data, allowing us to scale machine learning in more interesting ways. Deep learning and neural networks are primarily credited with accelerating progress in areas, such as computer vision, natural language processing, and speech recognition.
+                    
+                    Neural networks, or artificial neural networks (ANNs), are comprised of a node layers, containing an input layer, one or more hidden layers, and an output layer. Each node, or artificial neuron, connects to another and has an associated weight and threshold. If the output of any individual node is above the specified threshold value, that node is activated, sending data to the next layer of the network. Otherwise, no data is passed along to the next layer of the network. The “deep” in deep learning is just referring to the depth of layers in a neural network. A neural network that consists of more than three layers—which would be inclusive of the inputs and the output—can be considered a deep learning algorithm or a deep neural network. A neural network that only has two or three layers is just a basic neural network.
+                    
+                    See the blog post “AI vs. Machine Learning vs. Deep Learning vs. Neural Networks: What’s the Difference?” for a closer look at how the different concepts relate.
+                </div>
+                   <div class="thumbnail">
+                       <img src="https://source.unsplash.com/300x300/?coding,class
+                       "  alt="laptop image" class="imgfluid">
+                   </div>
+                   <section class="section">
+                    <div class="paras">
+                    <p class="sectionTag"><h2>How Machine Learning Woeks?</h2></p>
+                    <p class="sectionsubTag ">UC Berkeley (link resides outside IBM) breaks out the learning system of a machine learning algorithm into three main parts.
+
+                        A Decision Process: In general, machine learning algorithms are used to make a prediction or classification. Based on some input data, which can be labelled or unlabeled, your algorithm will produce an estimate about a pattern in the data.
+                        An Error Function: An error function serves to evaluate the prediction of the model. If there are known examples, an error function can make a comparison to assess the accuracy of the model.
+                        An Model Optimization Process: If the model can fit better to the data points in the training set, then weights are adjusted to reduce the discrepancy between the known example and the model estimate. The algorithm will repeat this evaluate and optimize process, updating weights autonomously until a threshold of accuracy has been met.  
+                                
+                    </div>
+                       <div class="thumbnail">
+                           <img src="https://source.unsplash.com/300x300/?coding,html
+                           "  alt="laptop image" class="imgfluid">
+                       </div>
+                       <section class="section">
+                        <div class="paras">
+                        <p class="sectionTag"><h2>Real-world machine learning use cases</h2></p>
+                        <p class="sectionsubTag ">Here are just a few examples of machine learning you might encounter every day:
+
+                            Speech recognition: It is also known as automatic speech recognition (ASR), computer speech recognition, or speech-to-text, and it is a capability which uses natural language processing (NLP) to process human speech into a written format. Many mobile devices incorporate speech recognition into their systems to conduct voice search—e.g. Siri—or provide more accessibility around texting.
+                            
+                            Customer service:  Online chatbots are replacing human agents along the customer journey. They answer frequently asked questions (FAQs) around topics, like shipping, or provide personalized advice, cross-selling products or suggesting sizes for users, changing the way we think about customer engagement across websites and social media platforms. Examples include messaging bots on e-commerce sites with virtual agents, messaging apps, such as Slack and Facebook Messenger, and tasks usually done by virtual assistants and voice assistants.
+                            
+                            Computer vision: This AI technology enables computers and systems to derive meaningful information from digital images, videos and other visual inputs, and based on those inputs, it can take action. This ability to provide recommendations distinguishes it from image recognition tasks. Powered by convolutional neural networks, computer vision has applications within photo tagging in social media, radiology imaging in healthcare, and self-driving cars within the automotive industry. 
+                            
+                            Recommendation engines: Using past consumption behavior data, AI algorithms can help to discover data trends that can be used to develop more effective cross-selling strategies. This is used to make relevant add-on recommendations to customers during the checkout process for online retailers.
+                            
+                            Automated stock trading: Designed to optimize stock portfolios, AI-driven high-frequency trading platforms make thousands or even millions of trades per day without human intervention.
+                                    
+                        </div>
+                           <div class="thumbnail">
+                               <img src="https://source.unsplash.com/300x300/?laptop,books
+                               "  alt="laptop image" class="imgfluid">
+                           </div>
+                           
+    
+     <footer class="background1">
+         <p class="text-footer">
+            Copyright &copy;2021 www.The Programming Hub.com -All rights reserved
+         </p>
+                   
+
+     </footer>
+</body>
+</html>

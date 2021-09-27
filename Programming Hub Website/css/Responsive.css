@@ -1,0 +1,4 @@
+@media screen only screen and(max-width:1046px) {
+    .nav-list{
+          flex-direction:column;
+    }
